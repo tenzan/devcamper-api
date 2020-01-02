@@ -1,19 +1,27 @@
 {
-	"name": "devcamper-api",
-	"version": "1.0.0",
-	"description": "Devcamper backend API",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/tenzan/devcamper-api.git"
-	},
-	"author": "Askar Karasaev",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/tenzan/devcamper-api/issues"
-	},
-	"homepage": "https://github.com/tenzan/devcamper-api#readme"
+  "name": "devcamper-api",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenzan/devcamper-api.git"
+  },
+  "author": "Askar Karasaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tenzan/devcamper-api/issues"
+  },
+  "homepage": "https://github.com/tenzan/devcamper-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
